@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.navbar{
+    /* border: 1px solid black; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.navbar-brand{
+    /* border: 1px solid black;  */
+     /* color:white; */
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 30px;
+    font-family: Quicksand;
+}
+
+body > div.header > nav > a > font{
+    /* color: #ff3b3c; */
+    font-family: Quicksand;
+    font-weight: 700;
+}
+
+.navbar-collapse{
+    /* border:1px solid black; */
+    width: 1250px;
+}
+.navbar-nav{
+    padding-right: 5px;
+}
+
+.btn1{
+    background-color: white;
+    color:#13375b;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: Work+sans;
+}
+
+.btn1:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* color:#ff3b3c; */
+}
+
+.banner-container{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* border: 1px solid black; */
+    /* background-image: url('/IMG/homepage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* padding: 150px 15px; */
+    height: 500px;
+    width: 100%;
+    font-family:Work+Sans;
+}
+
+.tag{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: end;
+    color:#fd003a ;
+    font-size: 200px;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+/* .container-fluid{
+    padding-top: 10px;
+    width:200px;
+} */
+
+.form-control{
+    border-radius: 50px;
+}
+
+.btn{
+    width: 100px;
+    margin-left: 150px;
+}
+.btn:hover{
+    background-color: rgb(66, 201, 66);
+    color:white;
+    border: none;
+}
+
+.properties-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+.property1{
+    /* border: 2px solid black; */
+    height: 250px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.footer{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+    background-color:rgb(220, 220, 220);
+    font-family: Quicksand;
+    display: inline-flex;
+}
+
+.terms-condition{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* REGISTRATION FORM CSS  */
+
+.registration-container{
+    /* border: 2px solid black; */
+    display: inline-flex;
+    height: 900px;
+    width: 100%;
+    font-family: Quicksand;
+}
+.image-container{
+    /* border: 1px solid black; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.form-container
+{
+    /* border: 1px solid black; */
+    border-radius:10px ;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 15px;
+    width:500px ;
+    /* height: 700px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    background-color: #f0f0f0;
+    
+}
+
+#btn1:hover{
+    background-color: rgb(66, 201, 66);;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/* LOGIN FORM CSS */
+
+.login-container{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.container{
+    border-radius:10px;
+    width: 50%;
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: Quicksand;
+}
+
+.login-image{
+    width: 50%;
+    text-align: center;
+}
+
+#btn2:hover{
+    background-color: rgb(66, 201, 66);;
+    color: white;
+    border: none;
+}
+
+.banner-container1{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        /* border: 1px solid black; */
+        background-image: url('/IMG/homepage.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 150px 15px;
+        height: 500px;
+        width: 100%;
+        font-family:Work+Sans;
+    
+}
+
+#bstaus::after{
+    background-color: rgb(23, 130, 23);
+    color: white;
+}
